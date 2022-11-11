@@ -1,0 +1,92 @@
+h1{
+  text-align: center;
+  color: rgb(185, 205, 33);
+  /* text-decoration:underline; */
+  font-size: 40px;
+}
+
+h1+div{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+form {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 30%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px;
+  color: rgb(136, 134, 143);;
+  font-weight: bold;
+  border-radius: 20px;
+
+}
+label{
+  padding-bottom: 1 0px;
+  font-size: 20px;
+
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  color: rgb(136, 134, 143);
+  font-weight: bold;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+table tr:hover {
+  background-color: #ddd;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #2b619e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 15px;
+}
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+body{
+  background-color: #23323f;
+}
